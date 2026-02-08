@@ -27,7 +27,7 @@ Two critical zero-day vulnerabilities have been discovered in the Inferno Shoutb
 **CVE:** Pending
 
 #### Description
-The shoutbox `newshout` and  `deleteshout` and `updateshout` action completely lacks CSRF token validation, allowing attackers to forge requests that post messages on behalf of authenticated users without their knowledge or consent.
+The shoutbox `newshout` and  `deleteshout`, `updateshout` and all others actions completely lacks CSRF token validation, allowing attackers to forge requests that post messages on behalf of authenticated users without their knowledge or consent.
 
 #### Proof of Concept
 ```http
